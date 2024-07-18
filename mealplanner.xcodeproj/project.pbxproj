@@ -14,6 +14,7 @@
 		4C208B9C2B8F9BCF00C8005B /* mealplannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C208B9B2B8F9BCF00C8005B /* mealplannerTests.swift */; };
 		4C208BA62B8F9BCF00C8005B /* mealplannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C208BA52B8F9BCF00C8005B /* mealplannerUITests.swift */; };
 		4C208BA82B8F9BCF00C8005B /* mealplannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C208BA72B8F9BCF00C8005B /* mealplannerUITestsLaunchTests.swift */; };
+		4CCC2D912BCFFBFF00213F5C /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC2D902BCFFBFF00213F5C /* Date+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4C208BA12B8F9BCF00C8005B /* mealplannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mealplannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C208BA52B8F9BCF00C8005B /* mealplannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mealplannerUITests.swift; sourceTree = "<group>"; };
 		4C208BA72B8F9BCF00C8005B /* mealplannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mealplannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4CCC2D902BCFFBFF00213F5C /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				4C208B8A2B8F9BCD00C8005B /* mealplannerApp.swift */,
 				4C208B8C2B8F9BCD00C8005B /* ContentView.swift */,
+				4CCC2D902BCFFBFF00213F5C /* Date+Extension.swift */,
 				4C208B8E2B8F9BCF00C8005B /* Assets.xcassets */,
 				4C208B902B8F9BCF00C8005B /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				4C208B8D2B8F9BCD00C8005B /* ContentView.swift in Sources */,
 				4C208B8B2B8F9BCD00C8005B /* mealplannerApp.swift in Sources */,
+				4CCC2D912BCFFBFF00213F5C /* Date+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
